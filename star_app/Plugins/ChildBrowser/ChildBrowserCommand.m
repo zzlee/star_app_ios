@@ -9,6 +9,17 @@
 
 @synthesize childBrowser;
 
+-(void) deleteCookies:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options{
+    
+    
+    NSHTTPCookieStorage *cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    
+    for (NSHTTPCookie *each in [cookieStorage cookies]) {
+        
+        [cookieStorage  deleteCookie:each];
+    }
+}
+
 - (void)showWebPage:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options  // args: url
 {
     if (self.childBrowser == nil) {
