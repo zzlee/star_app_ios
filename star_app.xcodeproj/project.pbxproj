@@ -568,6 +568,20 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/star_app/Plugins/gaPlugin\"",
 				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-all_load",
+					"-Obj-C",
+					"-lsqlite3.0",
+				);
 				PRODUCT_NAME = MiixCard;
 				PROVISIONING_PROFILE = "1FDB6EFC-D0BC-420D-94BB-FFE9AD203BF1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1FDB6EFC-D0BC-420D-94BB-FFE9AD203BF1";
@@ -593,6 +607,20 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/star_app/Plugins/gaPlugin\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-all_load",
+					"-Obj-C",
+					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = MiixCard;
 				PROVISIONING_PROFILE = "1FDB6EFC-D0BC-420D-94BB-FFE9AD203BF1";

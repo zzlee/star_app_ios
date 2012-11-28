@@ -27,6 +27,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "PushNotification.h"
 
 #import <Cordova/CDVPlugin.h>
 
@@ -107,6 +108,20 @@
 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    /* START BLOCK */
+    
+    // PushNotification - Handle launch from a push notification
+    NSDictionary* userInfo = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
+    if(userInfo) {
+        PushNotification *pushHandler = [self.viewController getCommandInstance:@"PushNotification"];
+        NSMutableDictionary* mutableUserInfo = [userInfo mutableCopy];
+        [mutableUserInfo setValue:@"1" forKey:@"applicationLaunchNotification"];
+        [mutableUserInfo setValue:@"0" forKey:@"applicationStateActive"];
+        [pushHandler.pendingNotifications addObject:mutableUserInfo];
+    }
+    
+    /* STOP BLOCK */
 
     return YES;
 }
@@ -136,5 +151,45 @@
 
     return supportedInterfaceOrientations;
 }
+
+/* START BLOCK */
+
+#pragma PushNotification delegation
+
+- (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
+{
+    PushNotification* pushHandler = [self.viewController getCommandInstance:@"PushNotification"];
+    [pushHandler didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
+}
+
+- (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
+{
+    PushNotification* pushHandler = [self.viewController getCommandInstance:@"PushNotification"];
+    [pushHandler didFailToRegisterForRemoteNotificationsWithError:error];
+}
+
+- (void)application:(UIApplication*)application didReceiveRemoteNotification:(NSDictionary*)userInfo
+{
+    PushNotification* pushHandler = [self.viewController getCommandInstance:@"PushNotification"];
+    NSMutableDictionary* mutableUserInfo = [userInfo mutableCopy];
+    
+    // Get application state for iOS4.x+ devices, otherwise assume active
+    UIApplicationState appState = UIApplicationStateActive;
+    if ([application respondsToSelector:@selector(applicationState)]) {
+        appState = application.applicationState;
+    }
+    
+    [mutableUserInfo setValue:@"0" forKey:@"applicationLaunchNotification"];
+    if (appState == UIApplicationStateActive) {
+        [mutableUserInfo setValue:@"1" forKey:@"applicationStateActive"];
+        [pushHandler didReceiveRemoteNotification:mutableUserInfo];
+    } else {
+        [mutableUserInfo setValue:@"0" forKey:@"applicationStateActive"];
+        [mutableUserInfo setValue:[NSNumber numberWithDouble: [[NSDate date] timeIntervalSince1970]] forKey:@"timestamp"];
+        [pushHandler.pendingNotifications addObject:mutableUserInfo];
+    }
+}
+
+/* STOP BLOCK */
 
 @end

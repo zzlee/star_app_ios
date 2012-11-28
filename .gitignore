@@ -18,3 +18,6 @@ build/*
 *.perspectivev3
 *.pbxuser
 xcuserdata
+"www \346\213\267\350\262\235/"
+www/
+www_/
