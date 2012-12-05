@@ -48,7 +48,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
+    //GZ remove ChildBrowser buttons
+    /*
     self.refreshBtn.image = [UIImage imageNamed:[[self class] resolveImageResource:@"ChildBrowser.bundle/but_refresh"]];
     self.backBtn.image = [UIImage imageNamed:[[self class] resolveImageResource:@"ChildBrowser.bundle/arrow_left"]];
     self.fwdBtn.image = [UIImage imageNamed:[[self class] resolveImageResource:@"ChildBrowser.bundle/arrow_right"]];
@@ -58,6 +60,7 @@
     self.webView.scalesPageToFit = TRUE;
     self.webView.backgroundColor = [UIColor whiteColor];
     NSLog(@"View did load");
+    */
 }
 
 - (void)didReceiveMemoryWarning
@@ -110,13 +113,16 @@
 
 - (IBAction)onDoneButtonPress:(id)sender
 {
+    
     [self closeBrowser];
     NSURLRequest* request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"about:blank"]];
     [self.webView loadRequest:request];
+    
 }
 
 - (IBAction)onSafariButtonPress:(id)sender
 {
+    /* GZ
     if (self.delegate != nil) {
         [self.delegate onOpenInSafari];
     }
@@ -128,6 +134,7 @@
         NSURLRequest* request = self.webView.request;
         [[UIApplication sharedApplication] openURL:request.URL];
     }
+     */
 }
 
 - (void)loadURL:(NSString*)url
@@ -142,7 +149,8 @@
         self.imageURL = nil;
         self.imageURL = url;
         self.isImage = YES;
-        NSString* htmlText = @"<html><body style='background-color:#333;margin:0px;padding:0px;'><img style='min-height:200px;margin:0px;padding:0px;width:100%;height:auto;' alt='' src='IMGSRC'/></body></html>";
+        //NSString* htmlText = @"<html><body style='background-color:#333;margin:0px;padding:0px;'><img style='min-height:200px;margin:0px;padding:0px;width:100%;height:auto;' alt='' src='IMGSRC'/></body></html>";
+        NSString* htmlText = @"<html><body style='background-color:#333;margin:0px;padding:0px;'></body></html>";
         htmlText = [htmlText stringByReplacingOccurrencesOfString:@"IMGSRC" withString:url];
 
         [self.webView loadHTMLString:htmlText baseURL:[NSURL URLWithString:@""]];
