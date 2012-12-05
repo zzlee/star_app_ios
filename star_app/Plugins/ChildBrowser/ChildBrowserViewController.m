@@ -55,12 +55,12 @@
     self.backBtn.image = [UIImage imageNamed:[[self class] resolveImageResource:@"ChildBrowser.bundle/arrow_left"]];
     self.fwdBtn.image = [UIImage imageNamed:[[self class] resolveImageResource:@"ChildBrowser.bundle/arrow_right"]];
     self.safariBtn.image = [UIImage imageNamed:[[self class] resolveImageResource:@"ChildBrowser.bundle/compass"]];
+     */
 
     self.webView.delegate = self;
     self.webView.scalesPageToFit = TRUE;
     self.webView.backgroundColor = [UIColor whiteColor];
     NSLog(@"View did load");
-    */
 }
 
 - (void)didReceiveMemoryWarning
@@ -149,8 +149,8 @@
         self.imageURL = nil;
         self.imageURL = url;
         self.isImage = YES;
-        //NSString* htmlText = @"<html><body style='background-color:#333;margin:0px;padding:0px;'><img style='min-height:200px;margin:0px;padding:0px;width:100%;height:auto;' alt='' src='IMGSRC'/></body></html>";
-        NSString* htmlText = @"<html><body style='background-color:#333;margin:0px;padding:0px;'></body></html>";
+        NSString* htmlText = @"<html><body style='background-color:#333;margin:0px;padding:0px;'><img style='min-height:200px;margin:0px;padding:0px;width:100%;height:auto;' alt='' src='IMGSRC'/></body></html>";
+        //NSString* htmlText = @"<html><body style='background-color:#333;margin:0px;padding:0px;'></body></html>";
         htmlText = [htmlText stringByReplacingOccurrencesOfString:@"IMGSRC" withString:url];
 
         [self.webView loadHTMLString:htmlText baseURL:[NSURL URLWithString:@""]];
