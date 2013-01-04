@@ -54,6 +54,7 @@
 		338E52DA165A34F40066CBA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 338E52D3165A32170066CBA5 /* Default.png */; };
 		338E52DC165A355B0066CBA5 /* 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 338E52DB165A355B0066CBA5 /* 72x72.png */; };
 		338E52DE165A35720066CBA5 /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 338E52DD165A35720066CBA5 /* 144x144.png */; };
+		74C0C6901679C4CF000813DB /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C0C68F1679C4CF000813DB /* icon-72@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 /* End PBXBuildFile section */
 
@@ -136,6 +137,7 @@
 		338E52D7165A32320066CBA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		338E52DB165A355B0066CBA5 /* 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72x72.png; sourceTree = "<group>"; };
 		338E52DD165A35720066CBA5 /* 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144x144.png; sourceTree = "<group>"; };
+		74C0C68F1679C4CF000813DB /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* star_app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "star_app-Info.plist"; path = "../star_app-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,6 +213,7 @@
 				3349C55A16663EFB00DA8F6F /* libsqlite3.dylib */,
 				338E52DD165A35720066CBA5 /* 144x144.png */,
 				338E52DB165A355B0066CBA5 /* 72x72.png */,
+				74C0C68F1679C4CF000813DB /* icon-72@2x.png */,
 				338E52D7165A32320066CBA5 /* Default-568h@2x.png */,
 				338E52D5165A321F0066CBA5 /* Default@2x.png */,
 				338E52D3165A32170066CBA5 /* Default.png */,
@@ -467,6 +470,7 @@
 				338E52DC165A355B0066CBA5 /* 72x72.png in Resources */,
 				338E52DE165A35720066CBA5 /* 144x144.png in Resources */,
 				3334731D1664D7EF00D0EC0C /* README.md in Resources */,
+				74C0C6901679C4CF000813DB /* icon-72@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,8 +591,8 @@
 					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = MiixCard;
-				PROVISIONING_PROFILE = "1FDB6EFC-D0BC-420D-94BB-FFE9AD203BF1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1FDB6EFC-D0BC-420D-94BB-FFE9AD203BF1";
+				PROVISIONING_PROFILE = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -627,17 +631,18 @@
 					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = MiixCard;
-				PROVISIONING_PROFILE = "1FDB6EFC-D0BC-420D-94BB-FFE9AD203BF1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1FDB6EFC-D0BC-420D-94BB-FFE9AD203BF1";
+				PROVISIONING_PROFILE = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		C01FCF4F08A954540054247B /* Debug */ = {
+		74F9EF281677401A007EA663 /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Feltmeng Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Feltmeng Inc.";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -662,6 +667,86 @@
 					"-all_load",
 					"-Obj-C",
 				);
+				PROVISIONING_PROFILE = "21A399B9-E55C-4016-B323-7EC111A6C570";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "21A399B9-E55C-4016-B323-7EC111A6C570";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = AppStore;
+		};
+		74F9EF291677401A007EA663 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Feltmeng Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Feltmeng Inc.";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "star_app/star_app-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "star_app/star_app-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/star_app/Plugins/gaPlugin\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-all_load",
+					"-Obj-C",
+					"-lsqlite3.0",
+				);
+				PRODUCT_NAME = MiixCard;
+				PROVISIONING_PROFILE = "21A399B9-E55C-4016-B323-7EC111A6C570";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "21A399B9-E55C-4016-B323-7EC111A6C570";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = AppStore;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mutzu Wang (82N62DMX32)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mutzu Wang (82N62DMX32)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-all_load",
+					"-Obj-C",
+				);
+				PROVISIONING_PROFILE = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -672,7 +757,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mutzu Wang (82N62DMX32)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mutzu Wang (82N62DMX32)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -697,6 +783,8 @@
 					"-all_load",
 					"-Obj-C",
 				);
+				PROVISIONING_PROFILE = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -711,6 +799,7 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				74F9EF291677401A007EA663 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -720,6 +809,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				74F9EF281677401A007EA663 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
