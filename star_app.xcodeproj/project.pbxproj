@@ -561,7 +561,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Mutzu Wang (82N62DMX32)";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mutzu Wang (82N62DMX32)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -591,8 +591,6 @@
 					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = MiixCard;
-				PROVISIONING_PROFILE = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -603,7 +601,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Mutzu Wang (82N62DMX32)";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mutzu Wang (82N62DMX32)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -631,8 +629,6 @@
 					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = MiixCard;
-				PROVISIONING_PROFILE = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -681,7 +677,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Feltmeng Inc.";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Feltmeng Inc.";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -709,8 +705,6 @@
 					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = MiixCard;
-				PROVISIONING_PROFILE = "21A399B9-E55C-4016-B323-7EC111A6C570";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "21A399B9-E55C-4016-B323-7EC111A6C570";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = AppStore;
@@ -745,8 +739,6 @@
 					"-all_load",
 					"-Obj-C",
 				);
-				PROVISIONING_PROFILE = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -783,8 +775,6 @@
 					"-all_load",
 					"-Obj-C",
 				);
-				PROVISIONING_PROFILE = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FD99FDFA-9A7F-4920-8F09-14B0D9F77465";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
