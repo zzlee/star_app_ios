@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="star_app/Plugins/PushNotification"/>
+	<classpathentry excluding="lib/quojs-2.3.1/|_deprecated/|lib/" kind="src" path="www"/>
+	<classpathentry kind="src" path="www/_deprecated"/>
+	<classpathentry excluding="quojs-2.3.1/" kind="src" path="www/lib"/>
+	<classpathentry kind="src" path="www/lib/quojs-2.3.1"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
