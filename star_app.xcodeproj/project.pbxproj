@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F9B51D817967F760045B72D /* ClipboardPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9B51D717967F760045B72D /* ClipboardPlugin.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -76,6 +77,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F9B51D617967F760045B72D /* ClipboardPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClipboardPlugin.h; path = ../../../../../Downloads/ClipboardPlugin.h; sourceTree = "<group>"; };
+		0F9B51D717967F760045B72D /* ClipboardPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClipboardPlugin.m; path = ../../../../../Downloads/ClipboardPlugin.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -182,6 +185,15 @@
 			name = Classes;
 			path = star_app/Classes;
 			sourceTree = SOURCE_ROOT;
+		};
+		0F9B51D517967F270045B72D /* Clipboard */ = {
+			isa = PBXGroup;
+			children = (
+				0F9B51D617967F760045B72D /* ClipboardPlugin.h */,
+				0F9B51D717967F760045B72D /* ClipboardPlugin.m */,
+			);
+			path = Clipboard;
+			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
@@ -290,6 +302,7 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				0F9B51D517967F270045B72D /* Clipboard */,
 				3334731E1664D82800D0EC0C /* gaPlugin */,
 				333473161664D7EF00D0EC0C /* PushNotification */,
 				3344E3C21656639B00B859E6 /* ChildBrowser */,
@@ -506,6 +519,7 @@
 				3334731B1664D7EF00D0EC0C /* PushNotification.js in Sources */,
 				3334731C1664D7EF00D0EC0C /* PushNotification.m in Sources */,
 				333473231664D82800D0EC0C /* GAPlugin.m in Sources */,
+				0F9B51D817967F760045B72D /* ClipboardPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
