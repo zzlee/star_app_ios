@@ -32,6 +32,8 @@
 	</array>
 	<key>Plugins</key>
 	<dict>
+		<key>ClipboardPlugin</key>
+		<string>ClipboardPlugin</string>
 		<key>GAPlugin</key>
 		<string>GAPlugin</string>
 		<key>PushNotification</key>
