@@ -48,10 +48,16 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>001</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSMainNibFile~ipad</key>
 	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>kaiu.ttf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

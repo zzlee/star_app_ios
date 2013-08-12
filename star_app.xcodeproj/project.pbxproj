@@ -38,6 +38,7 @@
 		30A0434914DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434614DC770100060A13 /* Localizable.strings */; };
 		30E1352710E2C1420031B30D /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E1352610E2C1420031B30D /* Cordova.plist */; };
 		30E5649213A7FCAF007403D8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E5649113A7FCAF007403D8 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		332D0BB217B8D8E100240296 /* kaiu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332D0BB117B8D8E100240296 /* kaiu.ttf */; };
 		3334731B1664D7EF00D0EC0C /* PushNotification.js in Sources */ = {isa = PBXBuildFile; fileRef = 333473181664D7EF00D0EC0C /* PushNotification.js */; };
 		3334731C1664D7EF00D0EC0C /* PushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 333473191664D7EF00D0EC0C /* PushNotification.m */; };
 		3334731D1664D7EF00D0EC0C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3334731A1664D7EF00D0EC0C /* README.md */; };
@@ -118,6 +119,7 @@
 		30E1352610E2C1420031B30D /* Cordova.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Cordova.plist; path = ../Cordova.plist; sourceTree = "<group>"; };
 		30E5649113A7FCAF007403D8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* star_app-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "star_app-Prefix.pch"; sourceTree = "<group>"; };
+		332D0BB117B8D8E100240296 /* kaiu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaiu.ttf; sourceTree = "<group>"; };
 		333473171664D7EF00D0EC0C /* PushNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNotification.h; sourceTree = "<group>"; };
 		333473181664D7EF00D0EC0C /* PushNotification.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = PushNotification.js; sourceTree = "<group>"; };
 		333473191664D7EF00D0EC0C /* PushNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNotification.m; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				332D0BB117B8D8E100240296 /* kaiu.ttf */,
 				30A0434214DC770100060A13 /* de.lproj */,
 				30A0434514DC770100060A13 /* se.lproj */,
 				1F766FDB13BBADB100FB74C0 /* en.lproj */,
@@ -484,6 +487,7 @@
 				338E52DE165A35720066CBA5 /* 144x144.png in Resources */,
 				3334731D1664D7EF00D0EC0C /* README.md in Resources */,
 				74C0C6901679C4CF000813DB /* icon-72@2x.png in Resources */,
+				332D0BB217B8D8E100240296 /* kaiu.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
