@@ -579,7 +579,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mutzu Wang (82N62DMX32)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mutzu Wang (82N62DMX32)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -609,6 +609,7 @@
 					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = OnDaScreen;
+				PROVISIONING_PROFILE = "7EB8AF8F-E27B-43D2-A320-2C3A13E433BF";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -619,7 +620,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mutzu Wang (82N62DMX32)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mutzu Wang (82N62DMX32)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -647,6 +648,8 @@
 					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = OnDaScreen;
+				PROVISIONING_PROFILE = "7EB8AF8F-E27B-43D2-A320-2C3A13E433BF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7EB8AF8F-E27B-43D2-A320-2C3A13E433BF";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -757,6 +760,8 @@
 					"-all_load",
 					"-Obj-C",
 				);
+				PROVISIONING_PROFILE = "7EB8AF8F-E27B-43D2-A320-2C3A13E433BF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7EB8AF8F-E27B-43D2-A320-2C3A13E433BF";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
