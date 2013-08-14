@@ -35,7 +35,7 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>tv.miix.miixcard</string>
+	<string>com.ondascreen</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
