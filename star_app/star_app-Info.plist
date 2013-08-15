@@ -33,7 +33,7 @@
 				<string>144.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
