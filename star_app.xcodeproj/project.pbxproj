@@ -616,8 +616,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Mutzu Wang (82N62DMX32)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mutzu Wang (82N62DMX32)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Feltmeng Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Feltmeng Inc.";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "star_app/star_app-Prefix.pch";
@@ -644,8 +644,8 @@
 					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = OnDaScreen;
-				PROVISIONING_PROFILE = "7EB8AF8F-E27B-43D2-A320-2C3A13E433BF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7EB8AF8F-E27B-43D2-A320-2C3A13E433BF";
+				PROVISIONING_PROFILE = "1D776EEE-7AFE-432A-AD2E-3E89B97243F0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D776EEE-7AFE-432A-AD2E-3E89B97243F0";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -768,8 +768,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Mutzu Wang (82N62DMX32)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mutzu Wang (82N62DMX32)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Feltmeng Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Feltmeng Inc.";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -794,6 +794,8 @@
 					"-all_load",
 					"-Obj-C",
 				);
+				PROVISIONING_PROFILE = "14F07FC5-2C5E-4B72-8895-0487509BD87E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "14F07FC5-2C5E-4B72-8895-0487509BD87E";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
