@@ -34,10 +34,10 @@
 	<dict>
 		<key>ClipboardPlugin</key>
 		<string>ClipboardPlugin</string>
-		<key>GAPlugin</key>
-		<string>GAPlugin</string>
 		<key>PushNotification</key>
 		<string>PushNotification</string>
+		<key>GoogleAnalyticsPlugin</key>
+		<string>GoogleAnalyticsPlugin</string>
 		<key>ChildBrowserCommand</key>
 		<string>ChildBrowserCommand</string>
 		<key>ChildBrowser</key>
