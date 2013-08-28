@@ -722,6 +722,7 @@
 					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = OnDaScreen;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4F2E47B4-127C-441A-913D-F7017A9682C0";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = AppStore;
