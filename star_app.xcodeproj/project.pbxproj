@@ -41,7 +41,6 @@
 		332D0BB217B8D8E100240296 /* kaiu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332D0BB117B8D8E100240296 /* kaiu.ttf */; };
 		3334731B1664D7EF00D0EC0C /* PushNotification.js in Sources */ = {isa = PBXBuildFile; fileRef = 333473181664D7EF00D0EC0C /* PushNotification.js */; };
 		3334731C1664D7EF00D0EC0C /* PushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 333473191664D7EF00D0EC0C /* PushNotification.m */; };
-		3334731D1664D7EF00D0EC0C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3334731A1664D7EF00D0EC0C /* README.md */; };
 		3344E3C91656639B00B859E6 /* ChildBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3344E3C31656639B00B859E6 /* ChildBrowser.bundle */; };
 		3344E3CA1656639B00B859E6 /* ChildBrowserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344E3C51656639B00B859E6 /* ChildBrowserCommand.m */; };
 		3344E3CB1656639B00B859E6 /* ChildBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344E3C71656639B00B859E6 /* ChildBrowserViewController.m */; };
@@ -125,7 +124,6 @@
 		333473171664D7EF00D0EC0C /* PushNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNotification.h; sourceTree = "<group>"; };
 		333473181664D7EF00D0EC0C /* PushNotification.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = PushNotification.js; sourceTree = "<group>"; };
 		333473191664D7EF00D0EC0C /* PushNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNotification.m; sourceTree = "<group>"; };
-		3334731A1664D7EF00D0EC0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		3344E3C31656639B00B859E6 /* ChildBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ChildBrowser.bundle; sourceTree = "<group>"; };
 		3344E3C41656639B00B859E6 /* ChildBrowserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserCommand.h; sourceTree = "<group>"; };
 		3344E3C51656639B00B859E6 /* ChildBrowserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserCommand.m; sourceTree = "<group>"; };
@@ -364,7 +362,6 @@
 				333473171664D7EF00D0EC0C /* PushNotification.h */,
 				333473181664D7EF00D0EC0C /* PushNotification.js */,
 				333473191664D7EF00D0EC0C /* PushNotification.m */,
-				3334731A1664D7EF00D0EC0C /* README.md */,
 			);
 			path = PushNotification;
 			sourceTree = "<group>";
@@ -495,7 +492,6 @@
 				338E52D8165A32320066CBA5 /* Default-568h@2x.png in Resources */,
 				338E52D9165A34EB0066CBA5 /* Default@2x.png in Resources */,
 				338E52DA165A34F40066CBA5 /* Default.png in Resources */,
-				3334731D1664D7EF00D0EC0C /* README.md in Resources */,
 				332D0BB217B8D8E100240296 /* kaiu.ttf in Resources */,
 				33638B5817BC622700BBB3EF /* 57.png in Resources */,
 				33638B5A17BC629300BBB3EF /* 114.png in Resources */,
