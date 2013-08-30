@@ -36,8 +36,8 @@
 		<string>ClipboardPlugin</string>
 		<key>PushNotification</key>
 		<string>PushNotification</string>
-		<key>GoogleAnalyticsPlugin</key>
-		<string>GoogleAnalyticsPlugin</string>
+		<key>GAPlugin</key>
+		<string>GAPlugin</string>
 		<key>ChildBrowserCommand</key>
 		<string>ChildBrowserCommand</string>
 		<key>ChildBrowser</key>

@@ -54,10 +54,10 @@
 		338E52D9165A34EB0066CBA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338E52D5165A321F0066CBA5 /* Default@2x.png */; };
 		338E52DA165A34F40066CBA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 338E52D3165A32170066CBA5 /* Default.png */; };
 		33F519B417CDE757008C5CFC /* 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F519B317CDE757008C5CFC /* 72x72.png */; };
-		33F519C917CE0E84008C5CFC /* GoogleAnalyticsPlugin.js in Sources */ = {isa = PBXBuildFile; fileRef = 33F519C317CE0E84008C5CFC /* GoogleAnalyticsPlugin.js */; };
-		33F519CA17CE0E84008C5CFC /* GoogleAnalyticsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F519C417CE0E84008C5CFC /* GoogleAnalyticsPlugin.m */; };
-		33F519CB17CE0E84008C5CFC /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F519C717CE0E84008C5CFC /* libGoogleAnalytics.a */; };
-		33F519CC17CE0E84008C5CFC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 33F519C817CE0E84008C5CFC /* README.md */; };
+		A874BF8917D0845400AE42C5 /* AppDelegate+Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = A874BF8817D0845400AE42C5 /* AppDelegate+Notification.m */; };
+		A874BF9617D0B2B200AE42C5 /* GAPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A874BF9417D0B2B200AE42C5 /* GAPlugin.m */; };
+		A874BF9717D0B2B200AE42C5 /* GoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A874BF9517D0B2B200AE42C5 /* GoogleAnalytics.a */; };
+		A874BF9917D0B2DF00AE42C5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A874BF9817D0B2DF00AE42C5 /* CoreData.framework */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 /* End PBXBuildFile section */
 
@@ -139,13 +139,18 @@
 		338E52D5165A321F0066CBA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		338E52D7165A32320066CBA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		33F519B317CDE757008C5CFC /* 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72x72.png; sourceTree = "<group>"; };
-		33F519C217CE0E84008C5CFC /* GoogleAnalyticsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleAnalyticsPlugin.h; sourceTree = "<group>"; };
-		33F519C317CE0E84008C5CFC /* GoogleAnalyticsPlugin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GoogleAnalyticsPlugin.js; sourceTree = "<group>"; };
-		33F519C417CE0E84008C5CFC /* GoogleAnalyticsPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalyticsPlugin.m; sourceTree = "<group>"; };
-		33F519C617CE0E84008C5CFC /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
-		33F519C717CE0E84008C5CFC /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
-		33F519C817CE0E84008C5CFC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* star_app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "star_app-Info.plist"; path = "../star_app-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A874BF8717D0845400AE42C5 /* AppDelegate+Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Notification.h"; sourceTree = "<group>"; };
+		A874BF8817D0845400AE42C5 /* AppDelegate+Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Notification.m"; sourceTree = "<group>"; };
+		A874BF8E17D0B2B200AE42C5 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		A874BF8F17D0B2B200AE42C5 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		A874BF9017D0B2B200AE42C5 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		A874BF9117D0B2B200AE42C5 /* GAITransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITransaction.h; sourceTree = "<group>"; };
+		A874BF9217D0B2B200AE42C5 /* GAITransactionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITransactionItem.h; sourceTree = "<group>"; };
+		A874BF9317D0B2B200AE42C5 /* GAPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAPlugin.h; sourceTree = "<group>"; };
+		A874BF9417D0B2B200AE42C5 /* GAPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAPlugin.m; sourceTree = "<group>"; };
+		A874BF9517D0B2B200AE42C5 /* GoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = GoogleAnalytics.a; sourceTree = "<group>"; };
+		A874BF9817D0B2DF00AE42C5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A874BF9917D0B2DF00AE42C5 /* CoreData.framework in Frameworks */,
 				3349C55B16663EFB00DA8F6F /* libsqlite3.dylib in Frameworks */,
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
@@ -170,7 +176,7 @@
 				301BF5C5109A6A2B0062928A /* SystemConfiguration.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				30E5649213A7FCAF007403D8 /* CoreMedia.framework in Frameworks */,
-				33F519CB17CE0E84008C5CFC /* libGoogleAnalytics.a in Frameworks */,
+				A874BF9717D0B2B200AE42C5 /* GoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +232,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				A874BF9817D0B2DF00AE42C5 /* CoreData.framework */,
 				33F519B317CDE757008C5CFC /* 72x72.png */,
 				33638B5D17BC631500BBB3EF /* 72.png */,
 				33638B5B17BC62F800BBB3EF /* 144.png */,
@@ -307,7 +314,7 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				33F519C117CE0E84008C5CFC /* GoogleAnalytics */,
+				A874BF8D17D0B2B200AE42C5 /* gaPlugin */,
 				0F9B51D517967F270045B72D /* Clipboard */,
 				333473161664D7EF00D0EC0C /* PushNotification */,
 				3344E3C21656639B00B859E6 /* ChildBrowser */,
@@ -359,6 +366,8 @@
 		333473161664D7EF00D0EC0C /* PushNotification */ = {
 			isa = PBXGroup;
 			children = (
+				A874BF8717D0845400AE42C5 /* AppDelegate+Notification.h */,
+				A874BF8817D0845400AE42C5 /* AppDelegate+Notification.m */,
 				333473171664D7EF00D0EC0C /* PushNotification.h */,
 				333473181664D7EF00D0EC0C /* PushNotification.js */,
 				333473191664D7EF00D0EC0C /* PushNotification.m */,
@@ -379,25 +388,19 @@
 			path = ChildBrowser;
 			sourceTree = "<group>";
 		};
-		33F519C117CE0E84008C5CFC /* GoogleAnalytics */ = {
+		A874BF8D17D0B2B200AE42C5 /* gaPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				33F519C217CE0E84008C5CFC /* GoogleAnalyticsPlugin.h */,
-				33F519C317CE0E84008C5CFC /* GoogleAnalyticsPlugin.js */,
-				33F519C417CE0E84008C5CFC /* GoogleAnalyticsPlugin.m */,
-				33F519C517CE0E84008C5CFC /* GoogSDK */,
-				33F519C817CE0E84008C5CFC /* README.md */,
+				A874BF8E17D0B2B200AE42C5 /* GAI.h */,
+				A874BF8F17D0B2B200AE42C5 /* GAITrackedViewController.h */,
+				A874BF9017D0B2B200AE42C5 /* GAITracker.h */,
+				A874BF9117D0B2B200AE42C5 /* GAITransaction.h */,
+				A874BF9217D0B2B200AE42C5 /* GAITransactionItem.h */,
+				A874BF9317D0B2B200AE42C5 /* GAPlugin.h */,
+				A874BF9417D0B2B200AE42C5 /* GAPlugin.m */,
+				A874BF9517D0B2B200AE42C5 /* GoogleAnalytics.a */,
 			);
-			path = GoogleAnalytics;
-			sourceTree = "<group>";
-		};
-		33F519C517CE0E84008C5CFC /* GoogSDK */ = {
-			isa = PBXGroup;
-			children = (
-				33F519C617CE0E84008C5CFC /* GANTracker.h */,
-				33F519C717CE0E84008C5CFC /* libGoogleAnalytics.a */,
-			);
-			path = GoogSDK;
+			path = gaPlugin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,7 +501,6 @@
 				33638B5C17BC62F800BBB3EF /* 144.png in Resources */,
 				33638B5E17BC631500BBB3EF /* 72.png in Resources */,
 				33F519B417CDE757008C5CFC /* 72x72.png in Resources */,
-				33F519CC17CE0E84008C5CFC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,8 +536,8 @@
 				3334731B1664D7EF00D0EC0C /* PushNotification.js in Sources */,
 				3334731C1664D7EF00D0EC0C /* PushNotification.m in Sources */,
 				0F9C04F517AF944300264A63 /* ClipboardPlugin.m in Sources */,
-				33F519C917CE0E84008C5CFC /* GoogleAnalyticsPlugin.js in Sources */,
-				33F519CA17CE0E84008C5CFC /* GoogleAnalyticsPlugin.m in Sources */,
+				A874BF8917D0845400AE42C5 /* AppDelegate+Notification.m in Sources */,
+				A874BF9617D0B2B200AE42C5 /* GAPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
