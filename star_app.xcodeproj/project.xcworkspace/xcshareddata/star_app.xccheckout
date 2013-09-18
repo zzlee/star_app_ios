@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3F102B91-EF35-4198-A6A7-9C47584A7442</string>
+	<key>IDESourceControlProjectName</key>
+	<string>star_app</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>493C88FE-ADA9-464E-8BF6-CE00B25479FC</key>
+		<string>https://github.com/feltmeng/star_app_www.git</string>
+		<key>85385966-DBF8-4B58-A2CF-D44BA1609EBD</key>
+		<string>file://localhost/Volumes/git/star_app_ios.git</string>
+		<key>BA2CC079-4306-449F-A1B3-9692810D8CBA</key>
+		<string>file://localhost/Volumes/git/platform_ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>star_app.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>493C88FE-ADA9-464E-8BF6-CE00B25479FC</key>
+		<string>../../www</string>
+		<key>85385966-DBF8-4B58-A2CF-D44BA1609EBD</key>
+		<string>../..</string>
+		<key>BA2CC079-4306-449F-A1B3-9692810D8CBA</key>
+		<string>../../www/lib/platform</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>file://localhost/Volumes/git/star_app_ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>85385966-DBF8-4B58-A2CF-D44BA1609EBD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BA2CC079-4306-449F-A1B3-9692810D8CBA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>platform</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>85385966-DBF8-4B58-A2CF-D44BA1609EBD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>star_app</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>493C88FE-ADA9-464E-8BF6-CE00B25479FC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>www</string>
+		</dict>
+	</array>
+</dict>
+</plist>
